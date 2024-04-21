@@ -1,0 +1,127 @@
+.listing-button-container {
+  display:flexbox;
+}
+
+.listing-button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer; /* Remove cursor hover effect */
+    display: inline-flex;
+    flex-direction: column;
+    border-color: #000000;
+    align-items: center;
+    margin-right: -270px;
+    transition: 0.3s ease;
+    margin-left: 350px;
+    border-color: black;
+  }
+  
+.listing-button:hover img {
+    transform: scale(1.1);
+  }
+  .listing-button:hover {
+    transform: scale(1.1);
+  }
+.listing-button img {
+  width: 50px;
+  height: 50px;
+}
+
+.listing-button span {
+  margin-top: 5px;
+  color: black;
+}
+
+.listing-button.active {
+  color:black;
+  border-color: rgb(165, 36, 36);
+}
+
+  h1{
+    margin: 60px;
+    margin-left: 260px;
+    margin-top:20px;
+    color: black;
+  }
+
+  
+  label {
+    display: inline-flex;
+    margin-left: 350px;
+  }
+  h2{
+    font-size: 27px;
+    color: black;
+    margin: 25px;
+    margin-left: 50px;
+  }
+   .first_step h2{
+    font-size: 35px;
+    color: black;
+    margin: -5px;
+    margin-left: 50px;
+  }
+  .first_step p{
+    margin-left: 45px;
+    font-size: 18px;
+    color: black;
+  }
+  .button-container h2 {
+    font-size: 27px;
+    color: black;
+    margin: 25px;
+    margin-left: 50px;
+  }
+  p {
+    font-size: 18px;
+    color: black;
+  }
+ 
+  .maxiguests{
+    padding: 3.2px;
+    margin: -50.1px;
+    text-align: center;
+    height: 30px;
+    margin-left: 88px;
+    background-color: gray;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .decguests {
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+    font-size: 10px;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .incguests{
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+    font-size: 10px;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    border-color: white;
+    border-width: 2px;
+    margin-left: 11.93px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .incguests:hover {
+    background-color: #4e647a;
+  }
+  
+  
